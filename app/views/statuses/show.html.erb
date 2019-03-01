@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Answered:</strong>
+  <%= @status.answered %>
+</p>
+
+<p>
+  <strong>Hint1:</strong>
+  <%= @status.hint1 %>
+</p>
+
+<p>
+  <strong>Hint2:</strong>
+  <%= @status.hint2 %>
+</p>
+
+<%= link_to 'Edit', edit_status_path(@status) %> |
+<%= link_to 'Back', statuses_path %>
